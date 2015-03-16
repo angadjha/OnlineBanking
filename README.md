@@ -1,2 +1,3 @@
 # OnlineBanking
-This Project is basically use the internet banking functionality. Like Account , Deposit , Withdraw , Check amount
+This Project is basically use the internet banking functionality. Like create new Account , Deposit , Withdraw , Check amount.
+
