@@ -9,4 +9,26 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <!-- create servlet  -->
+  <servlet>
+  <servlet-name>homeservlet</servlet-name>
+  <servlet-class>com.angadjava.app.home.HomeServlet</servlet-class>
+  </servlet>
+  <!-- servlet mapping  -->
+  <servlet-mapping>
+  <servlet-name>homeservlet</servlet-name>
+  <url-pattern>/homeservlet</url-pattern>
+  </servlet-mapping>
+  
+    <!-- create servlet  -->
+  <servlet>
+  <servlet-name>regservlet</servlet-name>
+  <servlet-class>com.angadjava.app.user.RegistrationServlet</servlet-class>
+  </servlet>
+  <!-- servlet mapping  -->
+  <servlet-mapping>
+  <servlet-name>regservlet</servlet-name>
+  <url-pattern>/regservlet</url-pattern>
+  </servlet-mapping>
+  
 </web-app>
